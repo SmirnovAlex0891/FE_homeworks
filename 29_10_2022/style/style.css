@@ -46,16 +46,19 @@ button:hover {
 }
 .main-left{
   grid-area: main-left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .main-right{
   grid-area: main-right;
 }
 .main-hiper {
   display: flex;
-}
+  }
 .main-hiper-link {
   display: flex;
-  margin: 10px;
+  margin: 0 10px 0 10px;
   background: rgba(54, 90, 219, 0.893);
   border: 1px solid black;
   border-radius: 40px;
