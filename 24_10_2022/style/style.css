@@ -8,17 +8,18 @@
       body,
       .wrapper {
         height: 100%;
+        width: 100%;
         display: flex;
       }
 
       .wrapper {
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         
       }
 
       body {
-        font-family: "Roboto", sans-serif;
+        font-family: 'Bitter', serif;
       }
 
       .item {
@@ -32,7 +33,7 @@
         align-self: flex-end;
       }
       .block-in-item {
-        width: 400px;
+        width: 250px;
       }
       .text {
         line-height: 1.5;
@@ -48,13 +49,14 @@
       .header {
         display: flex;
         position: absolute;
-        top: 0;
+        top: 50px;
         font-size: 40px;
         width: 100%;
-        justify-content: center;
-        align-items: flex-start;
+        justify-content: center;        
       }
       .header-item {
-        width: 500px;
+        width: 550px;
+        text-align: center;
       }
+      
     
