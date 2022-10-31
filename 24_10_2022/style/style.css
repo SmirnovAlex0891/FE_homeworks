@@ -23,13 +23,15 @@
       }
 
       .item {
-        flex: 1;
-        margin: 0 50px 0 50px;
+        display: flex;        
+        width: 100%;
+        justify-content: space-around;
         
       }
       .item2 {
-        flex: 1;
-        margin: 0 50px 0 50px;
+        display: flex;        
+        width: 100%;
+        justify-content: space-around;
         align-self: flex-end;
       }
       .block-in-item {
