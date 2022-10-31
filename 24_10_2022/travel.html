@@ -5,85 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel</title>
+       <style>
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
 
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
-
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      html,
-      body,
-      .wrapper {
-        height: 100%;
-        display: flex;
-                
-      }
-      
-      .wrapper {
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 200px 0 200px;
-        
-        
-      }
-      
-      body {
-        font-family: "Roboto", sans-serif;
-        
-      }
-
-      .item {
-        flex: 1;
-        margin: 40px;
-      }
-      .text {
-        line-height: 1.5;
-        margin: 1rem 0;
-      }
-      .subtitle {
-        font-size: 2.5rem;
-        font-weight: 400;
-      }
-      /* figure {
-        width: 100%;
-        
-      } */
-      .link {
-        color: black;
-      }
-      .item:nth-child(2) {
-        align-self: flex-end;
-      }
-      /* img {
-        width: 100%;
-        
-      }  */
-      .header {
-        position: absolute;
-        font-size: 40px;
-        width: 10px;
-        /* text-align: center; */
-      }
-    </style>
+       </style>   
+    <link rel="stylesheet" href="./style/style.css">
   </head>
-  
+
   <body>
-    <!-- <div class="header">
-      <h1>TRAVEL</h1>
-      <h1>EXPERIENCE</h1>
-    </div> -->
-    
-    <div class="wrapper">
+      <div class="wrapper">
       <div class="header">
-        <h1>TRAVEL EXPERIENCE</h1>
-      </div>
+        <div class="header-item">
+          <h1>TRAVEL</h1>
+          <h1>EXPERIENCE</h1>
+        </div>
+        </div>
 
       <div class="item">
-        <figure>
+        <figure class="block-in-item">
           <img src="https://via.placeholder.com/300x400" alt="" />
           <h2 class="subtitle">01/</h2>
           <p class="text">
@@ -93,12 +32,12 @@
             voluptatum saepe nisi, recusandae incidunt.
           </p>
           <div class="link">
-            <a href="">Read more</a>
+            <a href="">Read more <img src="./arrow.png" alt=""></a>
           </div>
         </figure>
       </div>
-      <div class="item">
-        <figure>
+      <div class="item2">
+        <figure class="block-in-item">
           <img src="https://via.placeholder.com/300x400" alt="" />
           <h2 class="subtitle">02/</h2>
           <p class="text">
@@ -108,12 +47,12 @@
             voluptatum saepe nisi, recusandae incidunt.
           </p>
           <div class="link">
-            <a href="">Read more</a>
+            <a href="">Read more <img src="./arrow.png" alt=""></a>
           </div>
         </figure>
       </div>
       <div class="item">
-        <figure>
+        <figure class="block-in-item">
           <img src="https://via.placeholder.com/300x400" alt="" />
           <h2 class="subtitle">03/</h2>
           <p class="text">
@@ -123,7 +62,7 @@
             voluptatum saepe nisi, recusandae incidunt.
           </p>
           <div class="link">
-            <a href="">Read more</a>
+            <a href="">Read more <img src="./arrow.png" alt=""></a>
           </div>
         </figure>
       </div>
