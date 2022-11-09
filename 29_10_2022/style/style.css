@@ -324,7 +324,7 @@ h2 {
     transition: all 0.5s ease-out;
   }
   :root {
-    --sidebar-width: 150px;
+    --sidebar-width: 180px;
   }
   .menu {
     position: fixed;

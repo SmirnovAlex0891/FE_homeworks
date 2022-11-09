@@ -4,4 +4,7 @@
 - [Д.работа 18.10.2022](https://smirnovalex0891.github.io/FE_homeworks/18_10_2022/auth.html)
 - [Д.работа 24.10.2022](https://smirnovalex0891.github.io/FE_homeworks/24_10_2022/travel.html)
 - [Д.работа 27.10.2022](https://smirnovalex0891.github.io/FE_homeworks/27_10_2022/index.html)
+- [Макет для др. 29.10](https://cdn.dribbble.com/userupload/3865999/file/original-379b2e75f0ccdeb8f7cc7a3956e7cde3.png?compress=1&resize=1905x1429)
 - [Д.работа 29.10.2022](https://smirnovalex0891.github.io/FE_homeworks/29_10_2022/index.html)
+- [Макет для др. 09.11](https://cdn.dribbble.com/userupload/2745586/file/original-7f0fa031e809b3802ff3a65736b38259.png?compress=1)
+- [Д.работа 09.11.2022](https://smirnovalex0891.github.io/FE_homeworks/09_11_2022/academy.html)
