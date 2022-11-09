@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+html,
+body,
+.wrapper {
+  height: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px auto 400px;
+  width: 1280px;
+}
+.sidebar {
+  background: gainsboro;
+}
+.sidebar__footer img{
+    width: 100%;
+}
+main {
+  background: white;
+  padding: 40px;
+}
+.main__header {
+    display: flex;
+    justify-content: space-between;
+}
+.main__dashboard {
+    display: flex;
+    width: 100%;
+    gap: 2rem;   
+}
+.main__dashboard__img1 {
+    width: 80%;
+       
+}
+
+.userbar {
+  background: lightgrey;
+}
+.search {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 300px;
+  border-radius: 12px;
+  padding-left: 10px;
+}
+.search__input {
+  border: none;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.search__input:focus {
+  outline: none;
+}
+.search__icon {
+  font-size: 1.5rem;
+  color: grey;
+}
